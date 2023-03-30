@@ -1,10 +1,10 @@
 body{background-color: white;}
 
 button {
-    background: #007E3E; /* Цвет фона */
+    background: #062f55; /* Цвет фона */
     color: #fff; /* Цвет текста */
-    padding: 10px; /* Поля вокруг текста */
-    border-radius: 5px; /* Уголки */
+    padding: 30px; /* Поля вокруг текста */
+    border-radius: 20px; /* Уголки */
 }
 
 .search-input {
@@ -37,4 +37,13 @@ details {
 
 table {
     width: 100%;
+}
+
+/* summary {
+    display: block;
+} */
+
+details[open] > summary {
+    color:#eee; 
+    background-color:#333;
 }
