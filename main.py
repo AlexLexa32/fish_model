@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 import random
-from настройки import *
+from settings import *
 
 
 class Shark:
