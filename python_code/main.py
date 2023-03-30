@@ -52,8 +52,6 @@ class Shark:
 
         self.x += self.dx
         self.dx = 0
-        # if -70 < self.y < WIDTH_canvas+70:
-        #     self.Speed += (self.v * g * ambient_density - self.m * g) * t / self.m
         self.y = min(self.y, WIDTH_canvas)
         self.y = max(self.y, 0)
 
