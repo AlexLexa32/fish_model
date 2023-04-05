@@ -7,13 +7,6 @@ button {
     border-radius: 20px; /* Уголки */
 }
 
-.search-input {
-    border: 1px solid rgb(0, 0, 0);
-    height: 10%;
-    padding: 24px 30px;
-    box-sizing: border-box;
-}
-
 section img {
     position: absolute;
     width: 100%;
